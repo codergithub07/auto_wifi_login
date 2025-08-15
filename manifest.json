@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Wi-Fi Login",
+    "version": "1.0.0",
+    "description": "Automatically detects captive portals and logs in using stored credentials.",
+    "permissions": [
+        "alarms",
+        "storage",
+        "scripting",
+        "tabs"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Auto Wi-Fi Login"
+    },
+    "icons": {
+        "48": "auto_wifi_icon_48x48.png"
+    }
+}
