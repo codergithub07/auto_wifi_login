@@ -46,6 +46,15 @@ A simple Chrome extension that automatically detects captive portals and logs yo
 - Test it first on networks you're allowed to use
 - The attempt to login will fail if you are already logged in
 
+## Limitations
+- **Chrome must remain open**: Extension only works when Chrome browser is running
+- **3-hour check intervals**: Automatic portal detection happens every 3 hours, not continuously
+- **Single credential set**: Can only store one username/password combination at a time
+- **Standard login forms only**: Works with basic username/password forms, not advanced authentication (2FA, CAPTCHA, etc.)
+- **No background persistence**: If Chrome is closed, automatic checking stops until you restart Chrome
+- **Form detection limits**: May not work with heavily customized or JavaScript-heavy login pages
+- **Limited session monitoring**: Only checks for session timeouts every 3 hours, not in real-time
+
 ## Files included
 - `manifest.json` - Extension configuration
 - `background.js` - Main extension logic
