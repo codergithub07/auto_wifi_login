@@ -16,7 +16,7 @@ A simple Chrome extension that automatically detects captive portals and logs yo
 
 2. **Install in Chrome**
    - Open Chrome browser
-   - Type `chrome://extensions/` in the address bar or directly clic on extentions (at right of the address bar) and click on 'manage extensions'
+   - Type `chrome://extensions/` in the address bar or directly click on extentions (at right of the address bar) and click on 'manage extensions'
    - Turn on "Developer mode" (toggle in top right)
    - Click "Load unpacked"
    - Select the folder containing these files
