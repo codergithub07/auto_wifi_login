@@ -6,7 +6,7 @@ A simple Chrome extension that automatically detects captive portals and logs yo
 - Automatically detects when you connect to Wi-Fi networks with login pages (captive portals)
 - Uses your saved username and password to log in automatically
 - Runs in the background and checks every 3 hours
-- Works on most common Wi-Fi login pages (hotels, cafes, public Wi-Fi, etc.)
+- Works on most common Wi-Fi login pages (universities, hostels, public Wi-Fi, etc.)
 
 ## How to install
 
